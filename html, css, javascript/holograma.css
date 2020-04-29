@@ -1,0 +1,148 @@
+
+body{
+    background-color: #dddddd;
+    padding: 30px;
+}
+
+
+/* barra de navegação superior */
+nav a {
+    color: black;
+    text-decoration: none; 
+         
+}
+
+nav#menu{
+    display: block;
+    text-decoration: none; 
+   
+}
+
+
+nav#menu :hover {
+    display: block;
+    background-color: #606060;
+    text-decoration: none; 
+    color: #FFFFFF;
+    
+}
+
+div.container-fluid{
+    background-color: #FFFFFF;
+    padding: 0.099%;
+    margin: 0px auto auto auto;
+    padding:  8px ;
+    box-shadow: 0px 0px 10px black;
+}
+
+.myNav{
+    float: right;
+    padding: 10px;
+    margin: 2px;
+    justify-content: space-between;
+    text-transform: uppercase;
+    /* background-color: #dddddd; */
+    -webkit-transition: background-color 1s;
+    -moz-transition: background-color 1s ;
+    -o-transition: background-color 1s;
+    -ms-transition: background-color 1s;
+    transition: background-color 1s;
+    text-decoration: none; 
+    
+    
+}
+
+
+
+
+/* titulo tecnologia */ 
+.box1-fluid{
+    background-color: rgb(0, 119, 255);
+    position: relative;
+    padding: 0%;
+    width: 100%;
+    color:white;
+}
+
+/* envolve os dados sobre o site  e os link de contato como facebook*/
+.box-fluid{
+    font-size: 10px;
+}
+
+/* dando um direcionamento para os links de contato como facebook */
+.contatos{
+    float: right;
+    margin: -20px -50px 0px auto; 
+}
+
+/* div direcionando a imagem do homem para a direita*/
+.imagem{
+    float: right;
+    margin: 120px -30px 0px auto; 
+}
+
+/* colocando borda e detalhamento da borda na imagem */
+figure.foto-legenda{
+    border: 3px solid white;
+    box-shadow: 1px 1px 4px black;
+    width: 305px;
+    height: 205px;
+    position: relative;
+    padding: auto;
+    margin: auto;
+
+}
+
+/* trabalhando todas as imagens dentro das bordas */
+figure.foto-legenda #img{
+    width: 300px;
+    height: 200px;
+    align-items: center;
+    padding: auto;
+    margin: auto;
+}
+
+/* colocando para aparecer a imagem quando o mouse ficar sobre a imagem */
+figure.foto-legenda:hover figcaption{
+    opacity: 1;
+}
+/* configurando a legenda das fotos */
+figure.foto-legenda figcaption{
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0,0,0,0.4);
+    color: white;
+    width: 100%;
+    height: 100%;
+    transition: opacity 1s;
+   
+}
+
+
+
+
+/* centralizando os titulos principais */
+h1, h5  {
+    text-align: center;
+}
+
+/* tamanho e cor do titulo embaixo do  titulo holograma */
+h5{
+    font-size: 20px;
+    color: gray;
+}
+
+/* formatação do paragrafo */
+p{
+    text-align: justify;
+    text-indent: 50px;
+}
+
+
+
+
+
+
+
+

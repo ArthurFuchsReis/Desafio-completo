@@ -62,7 +62,7 @@ section#corpo-fluid{
 
 aside#lateral-fluid{
     display: block;
-    width: 25%;
+    width: 35%;
     float: right;
     margin-right: 40px;
     padding-right: 15px;
@@ -103,8 +103,8 @@ footer{
 figure.foto-legenda{
     border: 3px solid white;
     box-shadow: 1px 1px 4px black;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     position: relative;
     margin: auto;
     padding: auto;
@@ -113,8 +113,8 @@ figure.foto-legenda{
 
 /* trabalhando todas as imagens dentro das bordas */
 figure.foto-legenda #img{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     align-items: center;
     margin: auto;
     padding: auto;
@@ -161,7 +161,9 @@ p{
     text-indent: 50px;
 }
 
-
+p#final{
+    text-align: center;
+}
 
 
 

@@ -145,7 +145,7 @@ h1{
 }
 
 /* centralizando os titulos principais */
-h1, h5  {
+h1, h5, h2  {
     text-align: center;
 }
 

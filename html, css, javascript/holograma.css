@@ -52,28 +52,29 @@ div.container-fluid{
     
 }
 
+
+
 section#corpo-fluid{
     display:block;
     width: 50%;
-    height: 30%;
     float: left;
     border-right: 1px solid;
     padding-right: 20px;
+    border-top: 1px solid black;
 }
 
 aside#lateral-fluid{
     display: block;
     width: 50%;
-    height: 50%;
     float: right;
-    /* justify-content: space-between; */
-    margin : auto;
     padding-left: 10px;
+    border-top: 1px solid black;
      
 }
 
 footer{
     clear: both;
+    border-top: 1px solid black ;
 }
 
 
@@ -168,7 +169,6 @@ p{
 p#final{
     text-align: center;
 }
-
 
 
 

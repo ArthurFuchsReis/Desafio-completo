@@ -3,6 +3,7 @@
 body{
     background-color: #dddddd;
     padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -28,8 +29,17 @@ nav#menu :hover {
     
 }
 
+a{
+    color:#606060;
+    text-decoration: none;
+}
+
+a :hover{
+    text-decoration: underline;
+}
+
 div.container-fluid{
-    background-color: #FFFFFF;
+    background-color: #f7f4f4;
     padding: 0.099%;
     margin: 0px auto auto auto;
     padding:  8px ;
@@ -62,16 +72,35 @@ section#corpo-fluid{
     padding-right: 20px;
     padding-left: 10px;
     border-top: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 aside#lateral-fluid{
     display: block;
     width: 50%;
     float: right;
-    padding-left: 20px;
-    padding-right: 10px;
-    border-top: 1px solid black;
+    padding: 0px 2px 0px 5px;
+    border-top: 1px solid black; 
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
      
+}
+
+aside#lateral-fluid article#segundario h2{
+    font-size: 20px;
+    color: #FFFFFF; 
+    background-color: #606060;
+    padding: 5px 0px 5px 10px;
+    margin: 10px 0pc 10px 0px;
+    text-align: center;
+     
+}
+
+aside#lateral-fluid article#segundario {
+    background-color: #dddddd;
+    margin-top: 10px;
+   
 }
 
 footer{
@@ -91,7 +120,8 @@ footer{
 
 /* envolve os dados sobre o site  e os link de contato como facebook*/
 .box-fluid{
-    font-size: 10px;
+    font-size: 9px;
+    color: #606060;
 }
 
 /* dando um direcionamento para os links de contato como facebook */
@@ -110,7 +140,7 @@ footer{
 figure.foto-legenda{
     border: 3px solid white;
     box-shadow: 1px 1px 4px black;
-    width: 140px;
+    width: 128px;
     height: 150px;
     position: relative;
     margin: auto;
@@ -145,6 +175,28 @@ figure.foto-legenda figcaption{
    
 }
 
+article#principal1 h2{
+    font-size: 20px;
+    color: #606060;
+    background-color: #dddddd;
+    padding: 5px 0px 5px 10px;
+    margin: 10px 0pc 10px 0px;
+    text-align: center;
+
+}
+
+
+article#principal2 h2{
+    font-size: 20px;
+    color: #606060;
+    background-color: #dddddd;
+    padding: 5px 0px 5px 10px;
+    margin: 10px 0pc 10px 0px;
+    text-align: center;
+}
+
+
+
 h1{
     font-family: sans-serif;
     text-shadow: 1px 1px 1px black;
@@ -152,7 +204,7 @@ h1{
 }
 
 /* centralizando os titulos principais */
-h1, h5, h2  {
+h1, h5   {
     text-align: center;
 }
 
@@ -166,11 +218,14 @@ h5{
 p{
     text-align: justify;
     text-indent: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
 }
 
 p#final{
     text-align: center;
     color: #606060;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 

@@ -149,7 +149,7 @@ figure.foto-legenda{
 }
 
 /* trabalhando todas as imagens dentro das bordas */
-figure.foto-legenda #img{
+figure.foto-legenda .img-fluid{
     width: 100%;
     height: 100%;
     align-items: center;

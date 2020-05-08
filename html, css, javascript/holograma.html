@@ -15,10 +15,15 @@
             <header id="cabecalho">
                  
                 <nav id="menu">
-                <a href="contatos.html" target="_blank"  class="myNav">Contato</a>
-                <a href="fotos.html" target="_blank"  class="myNav">Fotos</a>
+                <a href="contatos.html" target="_blank"  class="myNav"
+                onmousemove="mudaFoto('imagens/contato.png')" onmouseout="mudaFoto('imagens/man.png')">Contato</a>
+                <a href="fotos.html" target="_blank"  class="myNav"
+                onmousemove="mudaFoto('imagens/foto.png')"
+                onmouseout="mudaFoto('imagens/man.png')">Fotos</a>
                 <a href="holograma.html" target="_blank"  
-                class="myNav">Home</a>
+                class="myNav"
+                onmousemove="mudaFoto('imagens/home.png')"
+                onmouseout="mudaFoto('imagens/man.png')">Home</a>
             </nav>
     
             </header><br><br>
@@ -27,7 +32,8 @@
 
                 <div class="imagem">
                                    
-                    <img src="imagens/man.png" alt="Responsive image" class="img-responsive" id="im">
+                    <img src="imagens/man.png" alt="Responsive image" class="imag-fluid" id="im">
+                
                    
             </div>
                
@@ -130,7 +136,8 @@
 
                                         <div id="central">
                                             <figure class="foto-legenda">
-                                               <img src="hologram.gif" alt="Responsive image"class="img-fluid" >
+                                               <img src="hologram.gif" alt="Responsive image"class="img-fluid"
+                                                >
                                                <figcaption>
                                                     <h6> Utilizar em publicidade</h6>
                                                </figcaption>

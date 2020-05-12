@@ -6,6 +6,10 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+header#cabecalho {
+    margin-bottom: 50px;
+}
+
 
 /* barra de navegação superior */
 nav a {
@@ -62,7 +66,17 @@ div.container-fluid{
     
 }
 
+.imagem{
+    margin-bottom: 50px;
+}
 
+hgroup{
+    margin-bottom: 20px;
+}
+
+.row1-fluid {
+    margin-bottom: 90px;
+}
 
 section#corpo-fluid{
     display:block;
@@ -100,7 +114,9 @@ aside#lateral-fluid article#segundario h2{
 aside#lateral-fluid article#segundario {
     background-color: #dddddd;
     margin-top: 10px;
-   
+    padding-right: 5px;
+    padding-left: 5px;
+    
 }
 
 footer{
@@ -116,18 +132,23 @@ footer{
     padding: 0%;
     width: 100%;
     color:white;
+    margin-bottom: 30px;
+    
+
 }
 
 /* envolve os dados sobre o site  e os link de contato como facebook*/
 .box-fluid{
     font-size: 9px;
     color: #606060;
+    margin-bottom: 120px;
 }
 
 /* dando um direcionamento para os links de contato como facebook */
 .contatos{
     float: right;
     margin: -20px -50px 0px auto; 
+    margin-bottom: 10px;
 }
 
 /* div direcionando a imagem do homem para a direita*/
@@ -144,7 +165,10 @@ figure.foto-legenda{
     height: 150px;
     position: relative;
     margin: auto;
-    padding: auto; 
+    padding: auto;
+   
+    
+   
 
 }
 
@@ -155,6 +179,8 @@ figure.foto-legenda .img-fluid{
     align-items: center;
     padding: auto;
     margin: auto;
+    
+   
     
 }
 

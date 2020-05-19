@@ -2,18 +2,23 @@ header#cabecalho{
     margin-bottom: 50px;
 }
 
+.zoom-fluid{
+    margin-bottom: 100px;
+}
+
 ul#album-fotos {
-    width: 800px;
+    width: 350px;
     margin: auto;
-    padding: 50px;
+    padding: 20px;
     overflow: hidden;
     list-style: none;
+    margin-bottom: 100px;
 }
 
 ul#album-fotos li{
     float: left;
-    width: 170px;
-    height: 150px;
+    width: 135px;
+    height: 135px;
     margin: 5px;
     border: 3px solid #ffffff;
     background-color: #ffffff;
@@ -42,7 +47,7 @@ ul#album-fotos li:hover span {
 ul#album-fotos li#foto01 {
     background: url('./imagens/pessoa.jpg') no-repeat;
     background-position: 50% 50%;
-    background-size: 160px 160px;
+    background-size: 135px 135px;
     background-color: #ffffff;
 }
 
@@ -53,7 +58,7 @@ ul#album-fotos li#foto01:hover {
 ul#album-fotos li#foto02 {
     background: url('./imagens/ferrari.jpg') no-repeat;
     background-position: 50% 50%;
-    background-size: 160px 160px;
+    background-size: 135px 135px;
     background-color: #ffffff;
 }
 ul#album-fotos li#foto02:hover {
@@ -63,7 +68,7 @@ ul#album-fotos li#foto02:hover {
 ul#album-fotos li#foto03 {
     background: url('./imagens/corona.jpg') no-repeat;
     background-position: 50% 50%;
-    background-size: 160px 160px;
+    background-size: 135px 135px;
     background-color: #ffffff;
 }
 ul#album-fotos li#foto03:hover {
@@ -73,7 +78,7 @@ ul#album-fotos li#foto03:hover {
 ul#album-fotos li#foto04 {
     background: url('./imagens/aprendendo-biologia.jpg') no-repeat;
     background-position:  50% 50%;
-    background-size: 160px 160px;
+    background-size: 135px 135px;
     background-color: #ffffff;
 }
 ul#album-fotos li#foto04:hover {
@@ -83,21 +88,21 @@ ul#album-fotos li#foto04:hover {
 ul#album-fotos li#foto05 {
     background: url('./imagens/carro.jpg') no-repeat;
     background-position: 50% 50%;
-    background-size: 160px 160px;
+    background-size: 135px 135px;
     background-color: #ffffff;
 }
 ul#album-fotos li#foto05:hover {
     background-position: 0px 0px;
-    background-size: 170px 170px;
+    background-size: 150px 150px;
 }
 ul#album-fotos li#foto06 {
     background: url('./imagens/carro2.jpg') no-repeat;
     background-position: 50% 50%;
-    background-size: 160px 160px;
+    background-size: 135px 135px;
     background-color: #ffffff;
 }
 ul#album-fotos li#foto06:hover {
     background-position: 0px 0px;
-    background-size: 200px 200px;
+    background-size: 150px 150px;
 }
 

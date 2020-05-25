@@ -1,3 +1,41 @@
 header#cabecalho{
     margin-bottom: 50px;
 }
+
+fieldset {
+    border: 1px solid #cecece;
+    margin-bottom: 10px;
+   
+}
+
+fieldset#sexo {
+    width: 150px;
+}
+
+
+form {
+    
+    width: 300px;
+    margin: auto;
+    
+}
+
+
+
+input , textarea{
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 11pt;
+    
+}
+
+input:hover, textarea:hover{
+    background-color: #dddddd;
+}
+
+legend {
+    color:#888888;
+    font-weight: bold;
+    font-size: 11pt;
+    font-family: sans-serif;
+}

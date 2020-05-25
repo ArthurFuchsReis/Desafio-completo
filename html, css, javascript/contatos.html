@@ -59,27 +59,94 @@
                                     <h5>A tecnologia chegou!</h5>
                                 </hgroup>
                             
-                            
                                 <div class="box-fluid">
-
-
-                                   
 
                                     <b> Tecnologia &gt Informações<br></b>
                                     Saiba tudo sobre Hologramas<br>
                                     <b>Por-</b> Arthur Fuchs Reis<br>
-                                    Atualizado 14/05/2020
-
-                                    
-
+                                    Atualizado 25/05/2020
                                  </div>
-                  
             </div>
         </div>
 
-      
+            <div class="row-fluid">
+                <div class="col-fluid">
 
-        
+                    <form method="POST" id="fContato" action="mailti=arfure21@gmail.com">
+                        <fieldset id="usuario">
+                           <legend> Identificação do usuário
+                           </legend>
+
+                           <label for="cNome">Nome:</label><input type="text" name="tNome" id="cNome" size="15" maxlength="30" placeholder="Nome Completo"> <br>
+                           <label for="cSenha">Senha:</label>  <input type="password" name="tSenha" id="cSenha" size="8" maxlength="8" placeholder="8 dígitos"><br>
+                           <label for="cEmail">E-mail:</label> <input type="email" name="tEmail" id="cEmail" size="15" maxlength="40"><br>
+
+                           <fieldset id="sexo">
+                              <legend>sexo:</legend>
+                              
+                                <input type="radio" name="tSexo" id="cMasc" checked> 
+                                <label for="cMasc"> Masculino</label><br>
+                                <input type="radio" name="tSexo" id="cFem"><label for="cFem">Feminino</label> 
+
+                            </fieldset><br>
+
+                            <label for="cNasc">Data de nascimento:</label>  <input type="date" name="tNasc" id="cNasc">
+
+                        </fieldset><br>
+
+                       <fieldset id="endereco">
+                          <legend> Endereço do usuário
+                          </legend>
+
+                           <label for="cRua">Lougradouro:</label><input type="text" name="tRua" id="cRua" size="15" maxlength="80" placeholder="Rua, Av..."><br>
+                           <label for="cNum">Número:</label>  <input type="number" name="tNum" id="cNum" min="0" max="99999"><br> 
+                           <label for="cEst">Estado:</label> <select name="tEst" id="cEst">
+                               <option>AC</option>
+                               <option>AL</option>
+                               <option>AM</option>
+                               <option>AP</option>
+                               <option>BA</option>
+                               <option>CE</option>
+                               <option>DF</option>
+                               <option>ES</option>
+                               <option>GO</option>
+                               <option>MA</option>
+                               <option>MG</option>
+                               <option>MS</option>
+                               <option>MT</option>
+                               <option>PA</option>
+                               <option>PE</option>
+                               <option>PI</option>
+                               <option>PR</option>
+                               <option>RJ</option>
+                               <option>RN</option>
+                               <option>RO</option>
+                               <option>RR</option>
+                               <option>RS</option>
+                               <option>SC</option>
+                               <option>SE</option>
+                               <option>SP</option>
+                               <option>TO</option>
+                           </select><br>
+                           <label for="cCid">Cidade:</label><input type="text" name="tCid" id="cCid" size="15" maxlength="40" placeholder="Sua cidade"> 
+
+                        </fieldset> <br>
+
+                       <fieldset id="mensagem"> 
+                          <legend> Mensagem do usuário
+                          </legend>
+
+                          <label for="cMsg">Mensagem:<textarea rows="5" cols="20" name="tMsg" id="cMsg" placeholder="Deixe a sua mensagem"></textarea></label> <br> 
+                          <input type="submit" value="Enviar"><br>
+
+                        </fieldset> 
+
+                            
+                    </form>
+
+                </div>
+            </div>
+
                                     <footer>
 
                                         <p id="final">Copyright &copy; 2020 - Arthur Fuchs Reis <br> &nbsp;<a href="#" target="_blank">Facebook </a> |  <a href="#" target="_blank">Twitter </a>  </p>

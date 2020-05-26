@@ -4,20 +4,23 @@ header#cabecalho{
 
 fieldset {
     border: 1px solid #cecece;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    
    
 }
+
 
 fieldset#sexo {
     width: 150px;
 }
 
 
-form {
-    
-    width: 300px;
-    margin: auto;
-    
+.formulario-fluid {
+    width: 100%;;
+    padding-left: 10px;
+      
 }
 
 

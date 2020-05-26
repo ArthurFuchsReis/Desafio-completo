@@ -71,78 +71,80 @@
 
             <div class="row-fluid">
                 <div class="col-fluid">
+                    <section class="formulario-fluid">
 
-                    <form method="POST" id="fContato" action="mailti=arfure21@gmail.com">
-                        <fieldset id="usuario">
-                           <legend> Identificação do usuário
-                           </legend>
+                            <form method="POST" id="fContato" action="mailti=arfure21@gmail.com">
+                                <fieldset id="usuario">
+                                <legend> Identificação do usuário
+                                </legend>
 
-                           <label for="cNome">Nome:</label><input type="text" name="tNome" id="cNome" size="15" maxlength="30" placeholder="Nome Completo"> <br>
-                           <label for="cSenha">Senha:</label>  <input type="password" name="tSenha" id="cSenha" size="8" maxlength="8" placeholder="8 dígitos"><br>
-                           <label for="cEmail">E-mail:</label> <input type="email" name="tEmail" id="cEmail" size="15" maxlength="40"><br>
+                                <label for="cNome">Nome:</label><input type="text" name="tNome" id="cNome" size="25" maxlength="30" placeholder="Nome Completo"> <br>
+                                <label for="cSenha">Senha:</label>  <input type="password" name="tSenha" id="cSenha" size="8" maxlength="8" placeholder="8 dígitos"><br>
+                                <label for="cEmail">E-mail:</label> <input type="email" name="tEmail" id="cEmail" size="25" maxlength="40"><br>
 
-                           <fieldset id="sexo">
-                              <legend>sexo:</legend>
-                              
-                                <input type="radio" name="tSexo" id="cMasc" checked> 
-                                <label for="cMasc"> Masculino</label><br>
-                                <input type="radio" name="tSexo" id="cFem"><label for="cFem">Feminino</label> 
+                                <fieldset id="sexo">
+                                    <legend>sexo:</legend>
+                                    
+                                        <input type="radio" name="tSexo" id="cMasc" checked> 
+                                        <label for="cMasc"> Masculino</label><br>
+                                        <input type="radio" name="tSexo" id="cFem"><label for="cFem">Feminino</label> 
 
-                            </fieldset><br>
+                                    </fieldset><br>
 
-                            <label for="cNasc">Data de nascimento:</label>  <input type="date" name="tNasc" id="cNasc">
+                                    <label for="cNasc">Data de nascimento:</label>  <input type="date" name="tNasc" id="cNasc">
 
-                        </fieldset><br>
+                                </fieldset><br>
 
-                       <fieldset id="endereco">
-                          <legend> Endereço do usuário
-                          </legend>
+                            <fieldset id="endereco">
+                                <legend> Endereço do usuário
+                                </legend>
 
-                           <label for="cRua">Lougradouro:</label><input type="text" name="tRua" id="cRua" size="15" maxlength="80" placeholder="Rua, Av..."><br>
-                           <label for="cNum">Número:</label>  <input type="number" name="tNum" id="cNum" min="0" max="99999"><br> 
-                           <label for="cEst">Estado:</label> <select name="tEst" id="cEst">
-                               <option>AC</option>
-                               <option>AL</option>
-                               <option>AM</option>
-                               <option>AP</option>
-                               <option>BA</option>
-                               <option>CE</option>
-                               <option>DF</option>
-                               <option>ES</option>
-                               <option>GO</option>
-                               <option>MA</option>
-                               <option>MG</option>
-                               <option>MS</option>
-                               <option>MT</option>
-                               <option>PA</option>
-                               <option>PE</option>
-                               <option>PI</option>
-                               <option>PR</option>
-                               <option>RJ</option>
-                               <option>RN</option>
-                               <option>RO</option>
-                               <option>RR</option>
-                               <option>RS</option>
-                               <option>SC</option>
-                               <option>SE</option>
-                               <option>SP</option>
-                               <option>TO</option>
-                           </select><br>
-                           <label for="cCid">Cidade:</label><input type="text" name="tCid" id="cCid" size="15" maxlength="40" placeholder="Sua cidade"> 
+                                <label for="cRua">Lougradouro:</label><input type="text" name="tRua" id="cRua" size="25" maxlength="80" placeholder="Rua, Av..."><br>
+                                <label for="cNum">Número:</label>  <input type="number" name="tNum" id="cNum" min="0" max="99999"><br> 
+                                <label for="cEst">Estado:</label> <select name="tEst" id="cEst">
+                                    <option>AC</option>
+                                    <option>AL</option>
+                                    <option>AM</option>
+                                    <option>AP</option>
+                                    <option>BA</option>
+                                    <option>CE</option>
+                                    <option>DF</option>
+                                    <option>ES</option>
+                                    <option>GO</option>
+                                    <option>MA</option>
+                                    <option>MG</option>
+                                    <option>MS</option>
+                                    <option>MT</option>
+                                    <option>PA</option>
+                                    <option>PE</option>
+                                    <option>PI</option>
+                                    <option>PR</option>
+                                    <option>RJ</option>
+                                    <option>RN</option>
+                                    <option>RO</option>
+                                    <option>RR</option>
+                                    <option>RS</option>
+                                    <option>SC</option>
+                                    <option>SE</option>
+                                    <option>SP</option>
+                                    <option>TO</option>
+                                </select><br>
+                                <label for="cCid">Cidade:</label><input type="text" name="tCid" id="cCid" size="25" maxlength="40" placeholder="Sua cidade"> 
 
-                        </fieldset> <br>
+                                </fieldset> <br>
 
-                       <fieldset id="mensagem"> 
-                          <legend> Mensagem do usuário
-                          </legend>
+                            <fieldset id="mensagem"> 
+                                <legend> Mensagem do usuário
+                                </legend>
 
-                          <label for="cMsg">Mensagem:<textarea rows="5" cols="20" name="tMsg" id="cMsg" placeholder="Deixe a sua mensagem"></textarea></label> <br> 
-                          <input type="submit" value="Enviar"><br>
+                                <label for="cMsg">Mensagem:<textarea rows="5" cols="30" name="tMsg" id="cMsg" placeholder="Deixe a sua mensagem"></textarea></label> <br> 
+                                <input type="submit" value="Enviar"><br>
 
-                        </fieldset> 
+                                </fieldset> 
 
-                            
-                    </form>
+                                    
+                            </form>
+                </section>
 
                 </div>
             </div>

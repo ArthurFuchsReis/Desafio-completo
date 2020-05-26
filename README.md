@@ -1,4 +1,1 @@
-# Projeto Site Holograma
- HTML + CSS + JavaScript + Bootstrap
- 
- **Projeto em andamento**
+SIte holograma html + css + javascript + bootstrap
